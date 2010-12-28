@@ -20,10 +20,10 @@ set number " show line numbers
 syntax on 
 set t_Co=256 " 256 colors
 set background=dark 
-colorscheme ir_black
-"colorscheme herald 
+colorscheme my_slate 
+set guifont=Monaco\ 11
 
-"set hlsearch
+set hlsearch
 "
 "" enable spell check
 " :set spell
@@ -55,3 +55,5 @@ colorscheme ir_black
 :set noequalalways
 
 :nmap ,o o<Esc>
+
+:set nowrap
